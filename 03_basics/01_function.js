@@ -47,5 +47,39 @@ function userLoggIn(username = "sam"){
     }
     return `${username} is logged in`
 }
-//console.log(userLoggIn())
-console.log(userLoginIn()) 
+//console.log(userLoggIn("ashu"))
+// console.log(userLoginIn("ashu")) 
+
+function calculateCartPrice(...num1){
+    return num1
+}
+// console.log(calculateCartPrice(222,44,55,78,9))
+
+function calculateCartPrice(val1,val2,val3,...num1){
+    return num1
+}
+console.log(calculateCartPrice(22,44,55,78,9))
+
+
+
+const user ={
+    username : "ashu",
+    price: 199
+}
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+
+}
+// handleObject(user)
+handleObject({
+    username:"ashutosh",
+    price: 99
+})
+
+
+
+const myNewArray = [200,300,100,500]
+function returnSecondValue(getArray){
+    return getArray[0]
+}
+console.log(returnSecondValue(myNewArray))
