@@ -36,3 +36,16 @@ const result = addTwoNumber(2,2)
 | `false`     | 2 (false → 0)        |
 
 */
+
+
+
+function userLoggIn(username = "sam"){
+    if(!username)
+    {
+        console.log("Please entr a username")
+        return
+    }
+    return `${username} is logged in`
+}
+//console.log(userLoggIn())
+console.log(userLoginIn()) 
